@@ -1,0 +1,172 @@
+/*General rules */
+
+* {
+    margin: 0;
+
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+
+}
+
+p {
+    margin: 0.5em 0 0.5em 0;
+}
+
+
+
+header {
+    display: inline-flex;
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#parent {
+    width: 200px;
+    flex-direction: column;
+    text-align: center;
+}
+
+#logoimg {
+    width: 200px;
+}
+
+#nav-container {}
+
+nav a:visited,
+nav a:link {
+    color:
+        rgb(196, 23, 23);
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+nav {
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+
+nav>ul {
+    padding: 0;
+
+
+}
+
+nav>ul>il {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px 0 5px;
+
+
+}
+
+#content {
+    background-color: whitesmoke;
+    min-width: 900px;
+
+    margin-top: 90px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+#beautyshoot {
+    width: 100%;
+}
+
+#maintitle {
+    text-align: center;
+    font-size: 400%;
+    text-transform: uppercase;
+    color: rgb(68, 67, 67);
+}
+
+#info {
+    font-family: monospace;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#om {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 70px;
+}
+
+#video {
+    width: 560px;
+    height: 315px;
+
+    display: block;
+    margin: auto;
+}
+
+main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links {
+    display: inline-flex;
+    padding-left: 10%;
+    padding-top: 100px;
+
+
+
+}
+
+.links>a {
+
+    text-decoration: none;
+    color: black;
+    font-size: xx-small;
+    font-family: monospace;
+    text-align: center;
+    padding-right: 1px;
+    border-radius: 5px;
+    background-color: rgb(143, 143, 143);
+    width: 180px;
+    margin-right: 20px;
+}
+
+.links>a>img {
+
+    height: 100px;
+}
+
+footer {
+    color: whitesmoke;
+    display: inline-flex;
+    height: 50px;
+    background-color: rgb(20, 20, 20);
+    width: 100%;
+
+}
+
+.fot {
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+
+.text {
+    color: whitesmoke;
+    font-size: 500%;
+    padding-top: 200px;
+}
